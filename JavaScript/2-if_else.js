@@ -1,6 +1,6 @@
 'use strict';
 
-const name = 'Ryuzetsu';
+const name = 'Ryu';
 
 
 if (name === 'Leflyll') { //false
