@@ -12,6 +12,6 @@ if (condition2) {
   console.log('5 > 3');
 }
 
-if (a.isNull()) {
+if (a) {
   console.log('a exists');
 }
