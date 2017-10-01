@@ -1,0 +1,25 @@
+{
+  "name": "conditional",
+  "version": "1.0.0",
+  "description": "Conditional statements, expressions and constructs",
+  "main": "null",
+  "dependencies": {
+    "eslint": "^4.8.0"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HowProgrammingWorks/Conditional.git"
+  },
+  "author": "Aliosha Rabeshko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HowProgrammingWorks/Conditional/issues"
+  },
+  "homepage": "https://github.com/HowProgrammingWorks/Conditional#readme"
+}
