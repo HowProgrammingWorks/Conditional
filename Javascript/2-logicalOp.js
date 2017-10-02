@@ -34,4 +34,3 @@ let mood = !happy; // false
 console.log('...Logical operator NOT (!)...');
 
 console.log('He is happy? - ' + mood); 
-
