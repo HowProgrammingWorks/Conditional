@@ -1,5 +1,8 @@
 'use strict';
 
+// Syntax:
+// condition ? true-statement : false-statement;
+
 const name1 = 'Ryu';
 const name2 = 'Lef';
 
@@ -12,7 +15,6 @@ const log = name1 === name2 ? 'It\'s true' : 'It\'s false';
 //   log = 'It\'s false';
 // }
 console.log(log);
-
 
 // a, b - random numbers
 const a = Math.round(Math.random() * 10);
