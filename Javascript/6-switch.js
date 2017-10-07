@@ -28,8 +28,8 @@ const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday',
   'Friday', 'Saturday', 'Sunday'
 ];
 
-const getDayWithoutSwitch1 = (n) => (
+const getDayWithoutSwitch = (n) => (
   (n >= 1) && (n <= 7) ? days[n - 1] : 'Invalid number!'
 );
 
-console.log(getDayWithoutSwitch1(2));
+console.log(getDayWithoutSwitch(2));
