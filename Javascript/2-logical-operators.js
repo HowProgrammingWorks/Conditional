@@ -1,14 +1,14 @@
-'use strict'
+'use strict';
 
-let tea = true;
-let juice = true;
+const tea = true;
+const juice = true;
 
-let vodka = false;
-let beer = false
+const vodka = false;
+const beer = false;
 
-let goodDrinks = tea && juice; // true
-let badDrinks = vodka && beer; // false
-let badMix = vodka && juice;	// false
+const goodDrinks = tea && juice; // true
+const badDrinks = vodka && beer; // false
+const badMix = vodka && juice;	// false
 
 console.log('...Logical operator AND (&&)...');
 
@@ -16,21 +16,21 @@ console.log('Mix of Tea AND Juice is ' + goodDrinks);
 console.log('Mix of Vodka AND Beer is ' + badDrinks);
 console.log('Mix of Vodka AND Juice is ' + badMix);
 
-let engine_1 = true;
-let engine_2 = false;
+const engine1 = true;
+const engine2 = false;
 
-let fly = engine_1 || engine_2; // true, because the plane needs at least one OK engine
+const fly = engine1 || engine2; // true, because the plane needs at least one OK engine
 
 console.log('...Logical operator OR (||)...');
 
-console.log('The first engine works? - ' + engine_1)
-console.log('The second engine works? - ' + engine_2)
-console.log('Is the plane still flying? - ' + fly );
+console.log('The first engine works? - ' + engine1);
+console.log('The second engine works? - ' + engine2);
+console.log('Is the plane still flying? - ' + fly);
 
-let happy = true;
+const happy = true;
 
-let mood = !happy; // false
+const mood = !happy; // false
 
 console.log('...Logical operator NOT (!)...');
 
-console.log('He is happy? - ' + mood); 
+console.log('Is he happy? - ' + mood);
