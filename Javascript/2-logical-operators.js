@@ -1,10 +1,10 @@
-'use strict'
+'use strict';
 
 let tea = true;
 let juice = true;
 
 let vodka = false;
-let beer = false
+let beer = false;
 
 let goodDrinks = tea && juice; // true
 let badDrinks = vodka && beer; // false
@@ -23,8 +23,8 @@ let fly = engine_1 || engine_2; // true, because the plane needs at least one OK
 
 console.log('...Logical operator OR (||)...');
 
-console.log('The first engine works? - ' + engine_1)
-console.log('The second engine works? - ' + engine_2)
+console.log('The first engine works? - ' + engine_1);
+console.log('The second engine works? - ' + engine_2);
 console.log('Is the plane still flying? - ' + fly );
 
 let happy = true;
