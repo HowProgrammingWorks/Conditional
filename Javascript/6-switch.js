@@ -15,7 +15,7 @@ const getDay = (n) => {
   }
 };
 
-console.log(getDay(2));
+console.log(getDay(2)); // Tuesday
 
 // Use collection
 
@@ -33,6 +33,6 @@ const getDayNumber = (name) => {
   return n !== -1 ? n : new Error(`Invalid day name: ${name}`);
 };
 
-console.log(getDayWithoutSwitch(2));
-console.log(getDayWithoutSwitch(20));
-console.log(getDayNumber('Sunday'));
+console.log(getDayWithoutSwitch(2)); // Tuesday
+console.log(getDayWithoutSwitch(20)); // Error: Invalid day number: 20
+console.log(getDayNumber('Sunday')); // 6
