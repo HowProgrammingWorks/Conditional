@@ -2,7 +2,7 @@
 
 // Use switch
 
-const getDay = (n) => {
+const getDay = n => {
   switch (n) {
     case 1: return 'Monday';
     case 2: return 'Tuesday';
@@ -24,11 +24,13 @@ const days = [
   'Friday', 'Saturday', 'Sunday'
 ];
 
-const getDayWithoutSwitch = (n) => (
-  n > 0 && n <= days.length ? days[n - 1] : new Error(`Invalid day number: ${n}`)
+const getDayWithoutSwitch = n => (
+  n > 0 && n <= days.length ?
+    days[n - 1] :
+    new Error(`Invalid day number: ${n}`)
 );
 
-const getDayNumber = (name) => {
+const getDayNumber = name => {
   const n = days.indexOf(name);
   return n !== -1 ? n : new Error(`Invalid day name: ${name}`);
 };

@@ -8,7 +8,7 @@ const beer = false;
 
 const goodDrinks = tea && juice; // true
 const badDrinks = vodka && beer; // false
-const badMix = vodka && juice;	// false
+const badMix = vodka && juice; // false
 
 console.log('...Logical operator AND (&&)...');
 
@@ -19,7 +19,7 @@ console.log('Mix of Vodka AND Juice is ' + badMix);
 const engine1 = true;
 const engine2 = false;
 
-const fly = engine1 || engine2; // true, because the plane needs at least one OK engine
+const fly = engine1 || engine2; // true
 
 console.log('...Logical operator OR (||)...');
 
